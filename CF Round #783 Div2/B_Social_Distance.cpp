@@ -37,6 +37,8 @@ void test_case2(){
     int a[n];
     for(int i=0 ; i<n ; i++) cin>>a[i];
     
+    sort(a,a+n,greater<int>());
+
     m-= (2*a[0]+1);
     if(m<0){
         cout<<"NO"<<"\n";
