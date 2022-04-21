@@ -81,6 +81,7 @@ void test_case2(){
 }
  
 int main() {
+    cout<<"enter t";
     int t; cin>>t;
     while(t--){
         test_case2();
